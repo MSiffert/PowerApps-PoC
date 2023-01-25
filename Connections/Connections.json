@@ -1,0 +1,30 @@
+{
+  "9cf164c0-6b43-464d-ba34-2a3380b0baad": {
+    "connectionParameters": {
+      "database": "powerapps-poc",
+      "server": "sql-ti8m-powerapps.database.windows.net"
+    },
+    "connectionRef": {
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/sql-move-sqlservertypes-ref/1.0.1614.3130/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/8eb5470c96aa4637b723ece4fff9e729"
+    },
+    "datasets": {
+      "sql-ti8m-powerapps.database.windows.net,powerapps-poc": {
+        "dataSources": {
+          "[SalesLT].[ProductDescription]": {
+            "tableName": "[SalesLT].[ProductDescription]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "[SalesLT].[ProductDescription]"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9cf164c0-6b43-464d-ba34-2a3380b0baad"
+  }
+}

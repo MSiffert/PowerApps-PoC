@@ -1,0 +1,22 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sql",
+    "CdpRevision": {
+      "BaseUrl": "/v2",
+      "LastChangedTimeString": "2023-01-12T19:25:03.4530000Z",
+      "RevisionNumber": 2
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "Description": "Description",
+      "ModifiedDate": "ModifiedDate",
+      "ProductDescriptionID": "ProductDescriptionID",
+      "rowguid": "rowguid"
+    },
+    "DatasetName": "sql-ti8m-powerapps.database.windows.net,powerapps-poc",
+    "EncodeDataset": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "[SalesLT].[ProductDescription]",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
